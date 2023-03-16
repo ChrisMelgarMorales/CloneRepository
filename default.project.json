@@ -1,0 +1,68 @@
+{
+  "name": "466Team1Com",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "GiftItems": {
+        "$path": "src/shared"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+
+    "StarterGui": {
+      "menuScreen": {
+        "$path": "src/gui"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "EventModel": {
+        "$path": "src/MainMap/EventMap.rbxm"
+      },
+
+      "ShopModel": {
+        "$path": "src/ShopMap/ShopMap.rbxm"
+      },
+
+      "EventSequence": {
+        "$path": "src/EventScene/EventSequence.rbxm"
+      }
+
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0,
+          0,
+          0
+        ],
+        "Brightness": 2,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Voxel"
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
